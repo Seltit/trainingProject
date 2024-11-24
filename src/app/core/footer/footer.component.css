@@ -1,0 +1,23 @@
+.footer {
+    flex-grow: 1;
+    background-color: #34ebb185;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav-list {
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+}
+
+.footer__nav-item {
+    padding-right: 30px;
+}
