@@ -1,9 +1,20 @@
 body,
 html {
     font-family: 'Inter', sans-serif;
-    background-color: #d1cbcb;
     padding: 0;
     margin: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    background: rgb(127, 133, 133);
+    background: -moz-linear-gradient(25deg, rgba(127, 133, 133, 0.8184523809523809) 0%, rgba(209, 209, 226, 0.9024859943977591) 52%, rgba(128, 128, 128, 0.8352591036414566) 100%);
+    background: -webkit-linear-gradient(25deg, rgba(127, 133, 133, 0.8184523809523809) 0%, rgba(209, 209, 226, 0.9024859943977591) 52%, rgba(128, 128, 128, 0.8352591036414566) 100%);
+    background: linear-gradient(25deg, rgba(127, 133, 133, 0.8184523809523809) 0%, rgba(209, 209, 226, 0.9024859943977591) 52%, rgba(128, 128, 128, 0.8352591036414566) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7f8585", endColorstr="#808080", GradientType=1);
+
 }
 
 a {
