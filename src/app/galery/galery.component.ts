@@ -16,7 +16,7 @@ export class GaleryComponent implements OnInit {
   constructor(private service: RequesterService) { }
   ngOnInit(): void {
     const url = environment.mainUrl + "classes/products"
-    this.service.get(url, environment.options).pipe().subscribe((stock: any) => {
+    this.service.get(url, environment.options).subscribe((stock: any) => {
 
       this.stock = stock.results;
     });

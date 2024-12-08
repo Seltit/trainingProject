@@ -6,7 +6,8 @@ export const environment = {
     options: {
         headers: {
             'X-Parse-Application-Id': 'gg5VxS7WsRSkwjoDvzM09m6Hs5fCncreLKHG3OFN',
-            'X-Parse-REST-API-Key': 'yalZBZdwtmFE2Ulz90x6cAl3v5GVd1scfQMdmH8Q'
+            'X-Parse-REST-API-Key': 'yalZBZdwtmFE2Ulz90x6cAl3v5GVd1scfQMdmH8Q',
+            'X-Parse-Revocable-Session': ''
         }
     },
     method: '',
