@@ -11,5 +11,14 @@
         </ul>
     </aside>
 
+    <div class="jewels-container">
+        @for(item of stock; track $index){
+        <div class="jewel-card">
+            <img class="jewel-img" src={{item.jewelImg}} alt="test jewel" srcset="">
+            <p class="jewel-name"> {{item.jewelName}} </p>
+            <p class="jewel-price">{{item.jewelPrice}}</p>
+        </div>
+        }
+    </div>
 
 </div>

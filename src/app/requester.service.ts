@@ -15,7 +15,7 @@ export class RequesterService {
   get(url: string, options: object) {
 
     url = environment.mainUrl + 'classes/products'
-    return this.http.get<Stock>(url, options)
+    return this.http.get<Stock[]>(url, options);
 
   }
   /*post = (mainUrl: string, data: object) => request('post', url, data);
